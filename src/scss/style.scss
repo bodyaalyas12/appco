@@ -1,0 +1,235 @@
+.app {
+	// background: linear-gradient(92.09deg, #255d8b 2.29%, #3a80ba 96.79%);
+}
+body {
+	margin: 0;
+}
+.header {
+	// height: 655px;
+	background-size: cover;
+	background-image: url('../images/Rectangle-8.svg');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+
+	@media screen and (max-width: 991px) {
+		text-align: center;
+	}
+	img.background_img {
+		height: auto;
+		// opacity: 0;
+		width: 100%;
+		position: absolute;
+		z-index: -1;
+		@media screen and (max-width: 991px) {
+			display: none;
+		}
+	}
+}
+.pricing_wrapper {
+	background-image: url('../images/Rectangle-51.svg');
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-size: contain;
+}
+.footer_wrapper {
+	background-image: url('../images/Rectangle-54.svg');
+	background-repeat: no-repeat;
+	background-position: bottom bottom;
+	background-size: cover;
+}
+.header_text {
+	// font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: #ffffff;
+	padding: 24px 0;
+	margin: 0;
+	@media screen and (max-width: 992) {
+		font-size: 25px;
+	}
+	@media screen and (max-width: 1200px) {
+		font-size: 31px;
+		padding: 12px 0;
+	}
+}
+.header_text-lg {
+	@extend .header_text;
+	font-size: 48px;
+	@media screen and (max-width: 992) {
+		font-size: 30px;
+	}
+	@media screen and (max-width: 1200px) {
+		font-size: 35px;
+	}
+}
+.header_text-sm {
+	@extend .header_text;
+	font-size: 20px;
+	@media screen and (max-width: 1200px) {
+		font-size: 18px;
+	}
+}
+.my_button {
+	color: #3a80ba;
+	font-size: 16px;
+	padding: 17px 35px;
+	background: #ffffff;
+	border-radius: 8px;
+	margin: 12px 0;
+}
+.mobile_img {
+	z-index: 1 !important;
+	max-height: 100%;
+	width: auto !important;
+	margin-top: 72px;
+}
+.mobile_blur {
+	background: #000000;
+	opacity: 0.3;
+	filter: blur(22px);
+}
+.content_header {
+	font-size: 32px;
+	line-height: 39px;
+	width: 580px;
+	max-width: 100%;
+	padding-top: 16px;
+}
+.content_description {
+	padding-top: 24px;
+	padding-bottom: 40px;
+	font-size: 20px;
+	color: #7e7e7e;
+	width: 780px;
+	max-width: 100%;
+	text-align: center;
+	// font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+}
+.description_item {
+	background: #ffffff;
+	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+	border-radius: 32px;
+	padding: 32px 32px 32px 32px;
+	img {
+		padding-top: 12px;
+	}
+}
+.description_label {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #1a1a1a;
+	padding: 40px 0 4px 0;
+}
+.description_text {
+	text-align: center;
+	padding: 12px 0;
+	color: #7e7e7e;
+}
+.description_wrapper {
+	margin: 0 -10px;
+	& > div {
+		padding: 10px !important;
+	}
+}
+.learnMore_wrapper {
+	background: linear-gradient(93.19deg, #255d8b 2.29%, #3a80ba 96.79%);
+	margin: 80px 0;
+	@media screen and (max-width: 1200px) {
+		text-align: center;
+	}
+	&::before {
+		content: ' ';
+		height: 20px;
+		position: absolute;
+		display: block;
+		width: 100%;
+		background-color: #ffffff;
+		@media screen and (max-width: 1200px) {
+			display: none;
+		}
+	}
+}
+.learnMore_header {
+	@extend .content_header;
+	color: #ffffff;
+	font-weight: bold;
+	width: auto;
+	padding-top: 40px;
+}
+.learnMore_text {
+	font-size: 16px;
+	padding-top: 16px;
+	padding-bottom: 24px;
+	color: #ffffff;
+}
+.my_button_learnMore {
+	@extend .my_button;
+	padding: 16px 64px;
+	margin-bottom: 30px;
+}
+.macBook_background {
+	background-image: url('../images/macbook.png');
+}
+.macbook_img {
+	max-width: 100%;
+}
+.purchase_now {
+	padding: 16px 52px;
+	background: #3a80ba;
+	border-radius: 8px;
+	color: #ffffff;
+}
+.pricing_label {
+	@extend .description_label;
+	padding-top: 0;
+}
+.pricing_price {
+	font-weight: bold;
+	font-size: 48px;
+	text-align: center;
+	color: #1a1a1a;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #f1f1f1;
+}
+.standart {
+	font-size: 56px;
+	color: #3a80ba;
+}
+.contact_us {
+	color: #3a80ba !important;
+	font-weight: bold;
+	cursor: pointer;
+}
+.subscribe_input {
+	background: #ffffff;
+	border: 1px solid #f1f1f1;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 19px;
+	width: 500px;
+	max-width: 100%;
+}
+.subscribe_input_wrapper {
+	margin-top: 26px;
+}
+.footer_copyright {
+	color: #ffffff;
+}
+.footer_company {
+	font-size: 32px;
+	line-height: 39px;
+}
+.footer_copyright {
+	padding: 32px 0;
+}
+.subscribe_button{
+	@extend .purchase_now;
+	position: absolute;
+	right: 4px;
+	top:3px;
+}
