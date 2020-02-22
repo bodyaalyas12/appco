@@ -1,1 +1,3 @@
-export default 'http://localhost:4000'
+export default process.env.NODE_ENV === 'development'
+	? 'http://localhost:4000'
+	: 'https://appco-api.herokuapp.com/'
