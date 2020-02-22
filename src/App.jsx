@@ -8,12 +8,6 @@ import './scss/style.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
-	// useEffect(() => {
-	// 	fetch('http://localhost:4000')
-	// 		.then(response => response.json())
-	// 		.then(response => console.log(response))
-	// }, [])
-
 	return (
 		<Router>
 			<Switch>
