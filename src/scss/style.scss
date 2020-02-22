@@ -217,13 +217,11 @@ body {
 }
 .footer_copyright {
 	color: #ffffff;
+	padding: 32px 0;
 }
 .footer_company {
 	font-size: 32px;
 	line-height: 39px;
-}
-.footer_copyright {
-	padding: 32px 0;
 }
 .subscribe_button {
 	@extend .purchase_now;
@@ -233,4 +231,66 @@ body {
 }
 button {
 	outline-color: transparent !important;
+}
+.plain_header {
+	background: #3a80ba;
+	margin-bottom: 16px;
+}
+.plain_footer {
+	background: #1c3b55;
+}
+.breadcrumbs {
+	color: #cccccc !important;
+	margin: 0 -5px;
+	a {
+		color: #cccccc !important;
+		padding: 0 5px;
+	}
+	a.active {
+		color: #3a80ba !important;
+	}
+	padding-bottom: 8px;
+}
+.table_header {
+	background: #3a80ba;
+	color: #ffffff;
+	border-radius: 20px 20px 0 0;
+	& > div {
+		padding: 14px 24px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	div:not(:last-child) {
+		border-right: 1px solid #ffffff;
+	}
+}
+.table_item {
+	&:nth-child(even) {
+		background: #fbfbfb;
+	}
+	div {
+		padding: 6px 24px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		@media screen and(max-width:991px) {
+			width: 100% !important;
+		}
+	}
+}
+.pagination_item {
+	border: 2px solid #f1f1f1;
+	box-sizing: border-box;
+	border-radius: 8px;
+	width: 48px;
+	height: 48px;
+	background-color: #ffffff;
+	margin: 0 4px;
+}
+.pagination {
+	.active {
+		background: #3a80ba;
+		color: #ffffff;
+	}
 }
