@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
-import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
-import { getUsers } from '../store/actionCreators'
-import arrow from '../images/keyboard_arrow_right-24px.svg'
+import { Link } from 'react-router-dom'
 import { ReactSVG } from 'react-svg'
+import arrow from '../images/keyboard_arrow_right-24px.svg'
+import { getUsers } from '../store/actionCreators'
+import Footer from './Footer.jsx'
+import Header from './Header.jsx'
+import { GET_USER_STATISTIC } from '../store/actionTypes'
 
 const UserList = ({ getUsers, users, numberOfPages }) => {
 	const [currentPage, setCurrentPage] = useState(1)
@@ -88,7 +89,11 @@ const UserList = ({ getUsers, users, numberOfPages }) => {
 				<div className={'d-flex d-lg-none'}>
 					<div className={'d-flex flex-column w-100'}>
 						{users.map(user => (
-							<Link className={'custom_link mobile_custom_link'} key={user.id} to={`/users/${user.id}`}>
+							<Link
+								className={'custom_link mobile_custom_link'}
+								key={user.id}
+								to={`/users/${user.id}`}
+							>
 								<div className={'d-flex justify-content-between mobile_table_item'}>
 									<div className={'mobile_label'}>id</div>
 									<div className={'mobile_value'}>{user.id}</div>
@@ -194,7 +199,8 @@ const mapStateToProps = (state, props) => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-	getUsers: (page, itemsOnPage) => dispatch(getUsers(page, itemsOnPage))
+	getUsers: (page, itemsOnPage) => dispatch(getUsers(page, itemsOnPage)),
+	clearUser: () => dispatch({ type: GET_USER_STATISTIC, payload: {} })
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(UserList)

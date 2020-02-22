@@ -1,1 +1,1 @@
-export default 'https://appco-api.herokuapp.com/'
+export default 'https://appco-api.herokuapp.com'

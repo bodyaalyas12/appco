@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react'
+import Chart from 'react-apexcharts'
+import { DateRangePicker } from 'react-dates'
+import 'react-dates/initialize'
+import 'react-dates/lib/css/_datepicker.css'
+import { connect } from 'react-redux'
 import { Link, useParams } from 'react-router-dom'
+import { getUserStatictic } from '../store/actionCreators'
+import options from './chartOptions'
 import Footer from './Footer'
 import Header from './Header'
-import { connect } from 'react-redux'
-import { getUserStatictic } from '../store/actionCreators'
-import Chart from 'react-apexcharts'
-import options from './chartOptions'
-import 'react-dates/initialize'
-import { DateRangePicker } from 'react-dates'
-import 'react-dates/lib/css/_datepicker.css'
-import moment from 'moment'
 
 const UserProfile = ({ userStatistic = [1], getUserStatictic, userInfo = {} }) => {
 	const clickSeries = [
