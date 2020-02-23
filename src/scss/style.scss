@@ -141,14 +141,16 @@ body {
 .learnMore_wrapper {
 	background: linear-gradient(93.19deg, #255d8b 2.29%, #3a80ba 96.79%);
 	margin: 80px 0;
+	position: relative;
 	@media screen and (max-width: 1200px) {
 		text-align: center;
 	}
 	&::before {
 		content: ' ';
-		height: 20px;
+		height: 25px;
 		position: absolute;
 		display: block;
+		top:-1px;
 		width: 100%;
 		background-color: #ffffff;
 		@media screen and (max-width: 1200px) {
