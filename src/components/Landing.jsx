@@ -32,19 +32,22 @@ const Landing = () => {
 			image: onlineTest,
 			label: 'Basic',
 			price: '$29',
-			text: 'Increase sales by showing true dynamics of your website.'
+			text:
+				'Push Notifications Data Transfer SQL Database Search & SEO Analytics 24/7 Phone Support 2 months technical support 2+ profitable keyword'
 		},
 		{
 			image: fileSyncOt,
 			label: 'Standard',
 			price: '$149',
-			text: 'Build your online store’s trust using Social Proof & Urgency.'
+			text:
+				'Push Notifications Data Transfer SQL Database Search & SEO Analytics 24/7 Phone Support 2 months technical support 2+ profitable keyword'
 		},
 		{
 			image: quizNlyh,
 			label: 'Unlimited',
 			price: '$39',
-			text: 'Realize importance of social proof in customer’s purchase decision.'
+			text:
+				'Push Notifications Data Transfer SQL Database Search & SEO Analytics 24/7 Phone Support 2 months technical support 2+ profitable keyword'
 		}
 	]
 	return (
@@ -149,14 +152,18 @@ const Landing = () => {
 						<div className={'row description_wrapper no-gutters'}>
 							{pricingItems.map((item, index) => (
 								<div key={index} className={'col-lg-4'}>
-									<div className={'description_item'}>
+									<div
+										className={
+											item.label !== 'Standard' ? 'description_item no_box_shadow' : 'description_item'
+										}
+									>
 										<div className={'d-flex justify-content-center'}>
 											<h6 className={'pricing_label'}>{item.label}</h6>
 										</div>
 										<div className={'d-flex justify-content-center'}>
 											<img src={item.image} />
 										</div>
-										<div className={'d-flex justify-content-center'}>
+										<div className={'d-flex with_border justify-content-center'}>
 											<h6
 												className={
 													item.label === 'Standard' ? 'pricing_price standart' : 'pricing_price'
@@ -166,7 +173,14 @@ const Landing = () => {
 											</h6>
 										</div>
 										<div className={'d-flex justify-content-center'}>
-											<div className={'description_text'}>{item.text}</div>
+											<div className={'description_text'}>
+												<p>Push Notifications</p>
+												<p> Data Transfer SQL </p>
+												<p> Database Search & SEO Analytics </p>
+												<p> 24/7 Phone Support </p>
+												<p> 2 months technical support </p>
+												<p>2+ profitable keyword</p>
+											</div>
 										</div>
 										<div className={'d-flex justify-content-center'}>
 											<button className={'purchase_now'}>Purchase now</button>
