@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/appco/static/css/main.4b7f338c.chunk.css",
-    "main.js": "/appco/static/js/main.be1fce9b.chunk.js",
-    "main.js.map": "/appco/static/js/main.be1fce9b.chunk.js.map",
+    "main.js": "/appco/static/js/main.f480f1c9.chunk.js",
+    "main.js.map": "/appco/static/js/main.f480f1c9.chunk.js.map",
     "runtime-main.js": "/appco/static/js/runtime-main.fb07a892.js",
     "runtime-main.js.map": "/appco/static/js/runtime-main.fb07a892.js.map",
     "static/css/2.72d9205d.chunk.css": "/appco/static/css/2.72d9205d.chunk.css",
     "static/js/2.c5a06afb.chunk.js": "/appco/static/js/2.c5a06afb.chunk.js",
     "static/js/2.c5a06afb.chunk.js.map": "/appco/static/js/2.c5a06afb.chunk.js.map",
     "index.html": "/appco/index.html",
-    "precache-manifest.13cff4b94abe2788f6131defd2882a75.js": "/appco/precache-manifest.13cff4b94abe2788f6131defd2882a75.js",
+    "precache-manifest.561d8f0cf92420a7116e84d371cbd36a.js": "/appco/precache-manifest.561d8f0cf92420a7116e84d371cbd36a.js",
     "service-worker.js": "/appco/service-worker.js",
     "static/css/2.72d9205d.chunk.css.map": "/appco/static/css/2.72d9205d.chunk.css.map",
     "static/css/main.4b7f338c.chunk.css.map": "/appco/static/css/main.4b7f338c.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.72d9205d.chunk.css",
     "static/js/2.c5a06afb.chunk.js",
     "static/css/main.4b7f338c.chunk.css",
-    "static/js/main.be1fce9b.chunk.js"
+    "static/js/main.f480f1c9.chunk.js"
   ]
 }
