@@ -9,8 +9,9 @@ import { getUserStatictic } from '../store/actionCreators'
 import options from './chartOptions'
 import Footer from './Footer'
 import Header from './Header'
+import { GET_USER_STATISTIC } from '../store/actionTypes'
 
-const UserProfile = ({ userStatistic = [1], getUserStatictic, userInfo = {} }) => {
+const UserProfile = ({ userStatistic = [1], getUserStatictic, userInfo = {}, clearUser }) => {
 	const clickSeries = [
 		{
 			name: 'series-1',
@@ -33,6 +34,9 @@ const UserProfile = ({ userStatistic = [1], getUserStatictic, userInfo = {} }) =
 	const { id } = useParams()
 	useEffect(() => {
 		getUserStatictic(id)
+		return () => {
+			clearUser()
+		}
 	}, [])
 	const [dateRange, setDateRange] = useState({})
 	const dateChangeHandler = date => {
@@ -104,7 +108,8 @@ const mapStateToProps = (state, props) => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-	getUserStatictic: (id, dateRange) => dispatch(getUserStatictic(id, dateRange))
+	getUserStatictic: (id, dateRange) => dispatch(getUserStatictic(id, dateRange)),
+	clearUser: () => dispatch({ type: GET_USER_STATISTIC, payload: {} })
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(UserProfile)

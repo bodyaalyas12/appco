@@ -6,10 +6,9 @@ import UserList from './components/UserList.jsx'
 import UserProfile from './components/UserProfile.jsx'
 import './scss/style.scss'
 
-
 const App = () => {
 	return (
-		<Router>
+		<Router basename="/appco">
 			<Switch>
 				<Route path={'/'} exact component={Landing} />
 				<Route path={'/users'} exact component={UserList} />
