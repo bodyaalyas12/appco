@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ba052245ae7425813cf7de2eef8fc23",
+    "revision": "41fd20446d92eb8d1360d201abd524e6",
     "url": "/appco/index.html"
   },
   {
-    "revision": "a9a98abe525b2187dcde",
-    "url": "/appco/static/css/2.389269c8.chunk.css"
+    "revision": "8f0fe971aa01420c9aeb",
+    "url": "/appco/static/css/2.72d9205d.chunk.css"
   },
   {
-    "revision": "dee23ecaa62d93f3ef32",
-    "url": "/appco/static/css/main.8aa45cf7.chunk.css"
+    "revision": "9022661faf39307dd0ac",
+    "url": "/appco/static/css/main.4b7f338c.chunk.css"
   },
   {
-    "revision": "a9a98abe525b2187dcde",
-    "url": "/appco/static/js/2.1f28bf6d.chunk.js"
+    "revision": "8f0fe971aa01420c9aeb",
+    "url": "/appco/static/js/2.c5a06afb.chunk.js"
   },
   {
     "revision": "026703945c7c6cdacb86be11595cbba0",
-    "url": "/appco/static/js/2.1f28bf6d.chunk.js.LICENSE.txt"
+    "url": "/appco/static/js/2.c5a06afb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dee23ecaa62d93f3ef32",
-    "url": "/appco/static/js/main.bba1fe45.chunk.js"
+    "revision": "9022661faf39307dd0ac",
+    "url": "/appco/static/js/main.be1fce9b.chunk.js"
   },
   {
     "revision": "6e4468f50cac086235aa",

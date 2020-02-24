@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/appco/static/css/main.8aa45cf7.chunk.css",
-    "main.js": "/appco/static/js/main.bba1fe45.chunk.js",
-    "main.js.map": "/appco/static/js/main.bba1fe45.chunk.js.map",
+    "main.css": "/appco/static/css/main.4b7f338c.chunk.css",
+    "main.js": "/appco/static/js/main.be1fce9b.chunk.js",
+    "main.js.map": "/appco/static/js/main.be1fce9b.chunk.js.map",
     "runtime-main.js": "/appco/static/js/runtime-main.fb07a892.js",
     "runtime-main.js.map": "/appco/static/js/runtime-main.fb07a892.js.map",
-    "static/css/2.389269c8.chunk.css": "/appco/static/css/2.389269c8.chunk.css",
-    "static/js/2.1f28bf6d.chunk.js": "/appco/static/js/2.1f28bf6d.chunk.js",
-    "static/js/2.1f28bf6d.chunk.js.map": "/appco/static/js/2.1f28bf6d.chunk.js.map",
+    "static/css/2.72d9205d.chunk.css": "/appco/static/css/2.72d9205d.chunk.css",
+    "static/js/2.c5a06afb.chunk.js": "/appco/static/js/2.c5a06afb.chunk.js",
+    "static/js/2.c5a06afb.chunk.js.map": "/appco/static/js/2.c5a06afb.chunk.js.map",
     "index.html": "/appco/index.html",
-    "precache-manifest.3ec64572b8c5884ecb7f22f5e23fffa1.js": "/appco/precache-manifest.3ec64572b8c5884ecb7f22f5e23fffa1.js",
+    "precache-manifest.13cff4b94abe2788f6131defd2882a75.js": "/appco/precache-manifest.13cff4b94abe2788f6131defd2882a75.js",
     "service-worker.js": "/appco/service-worker.js",
-    "static/css/2.389269c8.chunk.css.map": "/appco/static/css/2.389269c8.chunk.css.map",
-    "static/css/main.8aa45cf7.chunk.css.map": "/appco/static/css/main.8aa45cf7.chunk.css.map",
-    "static/js/2.1f28bf6d.chunk.js.LICENSE.txt": "/appco/static/js/2.1f28bf6d.chunk.js.LICENSE.txt",
+    "static/css/2.72d9205d.chunk.css.map": "/appco/static/css/2.72d9205d.chunk.css.map",
+    "static/css/main.4b7f338c.chunk.css.map": "/appco/static/css/main.4b7f338c.chunk.css.map",
+    "static/js/2.c5a06afb.chunk.js.LICENSE.txt": "/appco/static/js/2.c5a06afb.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/appco/static/media/macbook.941eb1ba.png",
     "static/media/creativeThinking.png": "/appco/static/media/creativeThinking.596255f1.png",
     "static/media/keyboard_arrow_right-24px.svg": "/appco/static/media/keyboard_arrow_right-24px.440d6ab0.svg",
@@ -23,9 +23,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fb07a892.js",
-    "static/css/2.389269c8.chunk.css",
-    "static/js/2.1f28bf6d.chunk.js",
-    "static/css/main.8aa45cf7.chunk.css",
-    "static/js/main.bba1fe45.chunk.js"
+    "static/css/2.72d9205d.chunk.css",
+    "static/js/2.c5a06afb.chunk.js",
+    "static/css/main.4b7f338c.chunk.css",
+    "static/js/main.be1fce9b.chunk.js"
   ]
 }
