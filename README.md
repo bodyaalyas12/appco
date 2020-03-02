@@ -1,2 +1,2 @@
 hi.You can find deployed version <a href="https://bodyaalyas12.github.io/appco/">here</a> , and API for this <a href="https://github.com/bodyaalyas12/appco-api">here</a>.
-Application represents a landing page, user list (which you can reach by clicking view stats button) and user profile which opens when you click on exact user.On user profile you can view user statistics about clicks and views.Date range sorting provided. 
+Application represents a landing page, user list (which you can reach by clicking view stats button) and user profile which opens when you click on exact user.On user profile you can view user statistics about clicks and views.Date range filtering provided. 
